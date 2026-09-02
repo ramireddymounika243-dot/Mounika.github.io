@@ -1,0 +1,213 @@
+
+
+C and Data Structures
+
+Prerequisites
+
+Mathematical and logical reasoning at the 10+2 level.
+
+Unit–I: Problem Solving Methodology
+
+Programming Fundamentals
+
+1. Problem
+
+A problem is a specific task given to a computer that takes clearly defined input, processes the given input, and produces the expected output.
+
+Problem Solving
+
+Problem solving means systematically reaching a solution by applying a sequence of techniques.
+
+Problem-solving techniques include:
+
+1. Developing an algorithm
+
+
+2. Creating a flowchart
+
+
+3. Writing pseudocode
+
+
+
+Applying these techniques makes developing computer programs much easier.
+
+
+---
+
+Algorithm
+
+Definition
+
+An algorithm is a step-by-step solution to a problem written in simple and clear English.
+
+Example: Determine whether a number is even or odd
+
+Step 1: Start
+Step 2: Read num
+Step 3: Divide num by 2. If the remainder is zero, go to Step 4; otherwise, go to Step 5.
+Step 4: Display "num is an even number" and go to Step 6.
+Step 5: Display "num is an odd number" and go to Step 6.
+Step 6: Stop
+
+
+---
+
+Flowchart
+
+Definition
+
+A flowchart is a type of diagram that represents an algorithm. It gives a step-by-step representation of a solution to a given problem.
+
+A flowchart is a diagrammatic representation of an algorithm that illustrates the step-by-step solution of a problem.
+
+Basic Operations in a Flowchart
+
+(a) Start and End Symbols
+
+These symbols represent the start and end of an algorithm. They are usually shown using an oval or rounded rectangle.
+
+(b) Arrows
+
+Arrows show the flow or direction of control.
+
+(c) Processing Steps
+
+Processing steps represent operations or computations to be performed.
+
+Example: Add two numbers.
+
+(d) Input or Output
+
+The parallelogram symbol represents input or output operations.
+
+Example:
+
+Read a number
+
+Display/Print the first number
+
+
+(e) Conditional or Decision
+
+The rhombus (diamond) symbol represents a decision.
+
+Example: Using a flowchart to determine whether a number is even or odd.
+
+
+---
+
+Flowchart for Even or Odd Number
+
+Start
+↓
+Read num
+↓
+Divide num by 2
+↓
+◇ num % 2 = 0? ◇
+
+Yes → Display "num is even" → Stop
+No → Display "num is odd" → Stop
+
+
+---
+
+Characteristics of an Algorithm
+
+1. Input: It may take zero or more inputs.
+
+
+2. Output: It produces at least one output.
+
+
+3. Definiteness: Every step must be clear and unambiguous.
+
+
+4. Finiteness: The algorithm must terminate after a finite number of steps.
+
+
+5. Effectiveness: Each step should be simple and possible to perform.
+
+
+
+
+---
+
+Advantages of an Algorithm
+
+1. It makes the program easy to understand.
+
+
+2. It helps in planning a program before writing code.
+
+
+3. It helps to find errors and improve logic.
+
+
+4. It makes the program logic clear.
+
+
+5. It is useful for explaining programs to others.
+
+
+6. It provides a clear sequence of steps.
+
+
+
+
+---
+
+Disadvantages of an Algorithm
+
+1. Drawing or writing an algorithm for a large program can be time-consuming.
+
+
+2. Complex problems can result in lengthy algorithms.
+
+
+3. Algorithms cannot directly show the detailed program structure.
+
+
+4. There is no single standard format for writing algorithms.
+
+
+5. For very large problems, algorithms may become difficult to manage.
+
+
+
+
+---
+
+Pseudocode
+
+Definition
+
+Pseudocode is an informal way of representing the solution to a problem using simple English statements and programming-like structures.
+
+It does not follow the strict syntax of any particular programming language.
+
+Pseudocode is useful for representing:
+
+Conditional statements
+
+Looping statements
+
+Program logic
+
+
+Example: Even or Odd
+
+START
+READ num
+
+IF num % 2 = 0 THEN
+    PRINT "Even"
+ELSE
+    PRINT "Odd"
+END IF
+
+STOP
+
+
+---
